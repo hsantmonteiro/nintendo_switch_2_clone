@@ -802,6 +802,7 @@ a:focus::after,
     text-decoration: none;
     color: var(--text);
     cursor: pointer;
+    background: none;
 }
 
 .button-sign:hover {
@@ -1072,7 +1073,8 @@ a:focus::after,
 
 :root:has(#basic-dark:checked),
 :root[data-theme="basic-dark"] {
-    --bg-darker: hsl(0, 0%, 0%) --bg-dark: hsl(0, 0%, 11%);
+    --bg-darker: hsl(0, 0%, 0%);
+    --bg-dark: hsl(0, 0%, 11%);
     --bg: hsl(0, 0%, 18%);
     --bg-light: hsl(0, 0%, 27%);
     --bg-lighter: hsl(0, 0%, 31%);
