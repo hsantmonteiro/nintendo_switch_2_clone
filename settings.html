@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Settings | Nintendo Switch 2</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+    </head>
+    <body class="settings-grid">
+        <header class="primary-header separator-bottom">
+            <img src="img/system_settings_white.png" alt="" srcset="" class="dark-only" />
+            <img src="img/system_settings_black.png" alt="" srcset="" class="light-only" />
+            <h1 class="text-4xl">System Settings</h1>
+        </header>
+        <aside class="primary-sidebar separator-right">
+            <ul>
+                <li>
+                    <button class="primary-sidebar__item primary-sidebar__item--active">Themes</button>
+                </li>
+            </ul>
+        </aside>
+        <main class="flex flex-col settings-main">
+            <form action="">
+                <div class="form-item">
+                    <label class="radio-btn">
+                        <div>
+                            <input type="radio" name="theme" id="basic-light" />
+                            <div class="flex align-center">
+                                <div class="theme-preview theme-preview--basic-light"></div>
+                                Basic Light
+                            </div>
+                        </div>
+                        <div>
+                            <svg viewBox="0 0 28 28" class="svg-checked" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="9.5" fill="#FEFEFE" stroke="var(--clr-accent)" stroke-width="9" />
+                            </svg>
+                            <svg viewBox="0 0 28 28" class="svg-unchecked" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="13.5" stroke="var(--bg-lighter)" />
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label class="radio-btn">
+                        <div>
+                            <input type="radio" name="theme" id="basic-dark" />
+                            <div class="flex align-center">
+                                <div class="theme-preview theme-preview--basic-dark"></div>
+                                Basic Dark
+                            </div>
+                        </div>
+                        <div>
+                            <svg viewBox="0 0 28 28" class="svg-checked" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="9.5" fill="#FEFEFE" stroke="var(--clr-accent)" stroke-width="9" />
+                            </svg>
+                            <svg viewBox="0 0 28 28" class="svg-unchecked" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="14" cy="14" r="13.5" stroke="var(--bg-lighter)" />
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+            </form>
+        </main>
+        <footer class="flex justify-between align-center padding-x-800 padding-top-200 padding-bottom-400 separator-top relative">
+            <svg width="5.25rem" height="3rem" viewBox="0 0 423 178" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M383 0C414.6 2.76256e-06 422.5 26.3333 422.5 39.5V138.5C422.5 169.3 396.167 177.667 383 178H39.5C7.9 178 0 151.667 0 138.5V39.5C0 8.7 26.3333 0.333333 39.5 0H383ZM82.5 163V15H340V163H82.5ZM366.5 108C366.5 102.5 369.8 91.5 383 91.5C396.2 91.5 399.5 102.5 399.5 108C399.333 113.5 395.8 124.5 383 124.5C370.2 124.5 366.667 113.5 366.5 108ZM33 116C33 109.2 38.6667 107.5 41.5 107.5C44.3333 107.833 50 110 50 116C50 122 44.3333 124.167 41.5 124.5C38.6667 124.5 33 122.8 33 116ZM17 100C17 93.2 22.6667 91.5 25.5 91.5C28.3333 91.8333 34 94 34 100C34 106 28.3333 108.167 25.5 108.5C22.6667 108.5 17 106.8 17 100ZM48 100C48 93.2 53.6667 91.5 56.5 91.5C59.3333 91.8333 65 94 65 100C65 106 59.3333 108.167 56.5 108.5C53.6667 108.5 48 106.8 48 100ZM372.5 67C372.5 61 378.167 58.8333 381 58.5C383.833 58.5 389.5 60.2 389.5 67C389.5 73.8 383.833 75.5 381 75.5C378.167 75.1667 372.5 73 372.5 67ZM33 84C33 77.2 38.6667 75.5 41.5 75.5C44.3333 75.8333 50 78 50 84C50 90 44.3333 92.1667 41.5 92.5C38.6667 92.5 33 90.8 33 84ZM357.5 51C357.5 45 363.167 42.8333 366 42.5C368.833 42.5 374.5 44.2 374.5 51C374.5 57.8 368.833 59.5 366 59.5C363.167 59.1667 357.5 57 357.5 51ZM388.5 51C388.5 45 394.167 42.8333 397 42.5C399.833 42.5 405.5 44.2 405.5 51C405.5 57.8 399.833 59.5 397 59.5C394.167 59.1667 388.5 57 388.5 51ZM372.5 35C372.5 29 378.167 26.8333 381 26.5C383.833 26.5 389.5 28.2 389.5 35C389.5 41.8 383.833 43.5 381 43.5C378.167 43.1667 372.5 41 372.5 35ZM23 43C23.1667 37.5 26.7 26.5 39.5 26.5C52.3 26.5 55.8333 37.5 56 43C56 48.5 52.7 59.5 39.5 59.5C26.3 59.5 23 48.5 23 43Z"
+                    fill="currentColor"
+                />
+            </svg>
+            <div class="flex gap-100">
+                <a class="button-sign" href="../">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="100 100 312 312" fill="currentColor">
+                        <path d="M269.05,267.62H233.76V308h37.8c3.31-.74,14.83-3,14.83-20.19C286.39,272.13,269.05,267.62,269.05,267.62Z" />
+                        <path d="M280.43,225.61c0-14.29-8.83-17.82-8.83-17.82H233.76v35.64h33.46S280.45,239.87,280.43,225.61Z" />
+                        <path d="M256,103.51c-84.08,0-152.49,68.41-152.49,152.49S171.92,408.49,256,408.49,408.49,340.08,408.49,256,340.08,103.51,256,103.51Zm18.22,228.56-.8.11H209.77V183.6h58.37a32.31,32.31,0,0,1,25.94,12.77c5.15,6.87,9.89,16.26,9.89,27.52,0,7.44-5.35,23.13-11.29,28.64,10.12,6.61,18.07,20.91,17.69,37.82C309.65,322.31,286.41,330.42,274.22,332.07Z" />
+                    </svg>
+                    <span>Back</span>
+                </a>
+                <div class="button-sign">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="100 100 312 312">
+                        <polygon points="235.88 262.85 278.61 262.85 257.34 214.92 235.88 262.85" fill="currentColor" />
+                        <path d="M256,103.51c-84.08,0-152.49,68.41-152.49,152.49S171.92,408.49,256,408.49,408.49,340.08,408.49,256,340.08,103.51,256,103.51Zm48.07,216.7L289.35,287H225.06l-16.4,36.62-25.3.43,63.57-144.33h20.92l61.55,141Z" fill="currentColor" />
+                    </svg>
+                    <span>OK</span>
+                </div>
+            </div>
+            <script src="js/script.js"></script>
+            <script src="js/themes.js"></script>
+        </footer>
+    </body>
+</html>
